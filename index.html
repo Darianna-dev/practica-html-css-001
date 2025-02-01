@@ -5,13 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portafolio</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
     </head>
     <body>
-        <header></header>
+        <header class="header">
+            <nav class="header__menu">
+                <!-- <ul class="header__nav__list"> -->
+                <a class="header__menu__link" href="./index.html">Home</a>
+                <a class="header__menu__link" href="./about.html">Sobre mi</a>
+                <a class="header__menu__link" href="./curriculum.html"
+                    >Curriculum</a
+                >
+                <!-- </ul> -->
+            </nav>
+        </header>
         <main class="presentacion">
             <section class="presentacion__contenido">
                 <h1 class="presentacion__contenido__titulo">
@@ -28,24 +38,36 @@
                     <h2 class="presentacion__contenido__enlaces_subtitulo">
                         Accede a mis redes:
                     </h2>
-                    <a
-                        class="presentacion__contenido__enlaces__link"
-                        href="https://instagram.com/"
-                        >Instagram</a
-                    >
+
                     <a
                         class="presentacion__contenido__enlaces__link"
                         href="https://github.com/"
-                        >GitHub</a
                     >
+                        <img src="./assets/github.png" alt="github" />
+                        GitHub
+                    </a>
+                    <a
+                        class="presentacion__contenido__enlaces__link"
+                        href="https://linkedin.com/"
+                    >
+                        <img src="./assets/linkedin.png" alt="github" />
+                        Linkedin
+                    </a>
+                    <a
+                        class="presentacion__contenido__enlaces__link"
+                        href="https://instagram.com/"
+                    >
+                        <img src="./assets/instagram.png" alt="instagram" />
+                        Instagram
+                    </a>
                 </div>
             </section>
 
             <img
-                src="Imagem.png"
+                src="./assets/img/Imagem.png"
                 alt="Foto de Ana García desarrolando un proyecto"
             />
         </main>
-        <footer></footer>
+        <footer class="footer">Desarrollado por Domegal13.dev</footer>
     </body>
 </html>
