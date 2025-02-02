@@ -21,14 +21,14 @@
     list-style: none;
 }
 body {
-    font-size: 100%;
+    /* font-size: 100%; */
     list-style-type: none;
     background: var(--primary-color);
     color: var(--tertiary-color);
 }
 
 .header {
-    padding: 2% 0 0 15%;
+    padding: 2% 0 0 10%;
 }
 
 .header__menu {
@@ -39,27 +39,28 @@ body {
 .header__menu__link {
     font-family: var(--fuente-krona);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--tertiary-color);
 }
 
 .presentacion {
+    padding: 5% 10%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 5% 15%;
+    align-items: space-between;
+    gap: 82px;
 }
 
 .presentacion__contenido {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    width: 615px;
+    width: 50%;
     color: var(--secondary-color);
 }
 
 .presentacion__contenido__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fuente-krona);
 }
 
@@ -70,7 +71,7 @@ h1 > strong {
 .presentacion__contenido__texto {
     font-family: var(--fuente-montserrat);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .presentacion__contenido__texto a {
@@ -83,35 +84,40 @@ h1 > strong {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .presentacion__contenido__enlaces_subtitulo {
     font-family: var(--fuente-krona);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--secondary-color);
 }
 .presentacion__contenido__enlaces__link {
     margin: 10px;
     background: var(--primary-color);
     color: var(--secondary-color);
-    width: 378px;
+    width: 50%;
     text-align: center;
     padding: 21.5px 0;
     border: 1px solid var(--tertiary-color);
     border-radius: 8px;
     font-family: var(--fuente-montserrat);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     gap: 10px;
-    line-height: 36px;
+    line-height: 2.25rem;
 }
 
 .presentacion__contenido__enlaces__link:hover {
     background: var(--color-hover);
+}
+
+.presentacion__imagen {
+    width: 50%;
+    height: 25%;
 }
 
 .footer {
@@ -119,8 +125,8 @@ h1 > strong {
     padding: 23px;
     font-family: var(--fuente-montserrat);
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     color: var(--primary-color);
     text-align: center;
 }
